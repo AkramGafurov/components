@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: 'Open Sans',sans-serif;
+}
+
+:root {
+  --dark-color: #808080;
+  --white-color: #ffffff;
+  --light-color: #f8f9fa;
+
+
+  --small-interval: 15px;
+  --medium-interval: 25px;
+  --large-interval: 35px;
+
+  --button-gradient: linear-gradient(to right, #F8FA4E 0%, #7FF768 100%);
+}
