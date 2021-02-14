@@ -1,0 +1,32 @@
+
+.shopping__container{
+  padding: var(--large-interval);
+  position: fixed;
+  width: 97%;
+  height: 97vh;
+  background-color: var(--white-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  margin: auto;
+  border: 1px red solid;
+}
+.shopping__content{}
+.shopping__content_img{
+  width: 30px;
+  height: auto;
+}
+.shopping__content_name{
+  font-weight: bold;
+  padding: var(--small-interval);
+}
+.shopping__content_price{
+
+}
+
+.shopping__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+}

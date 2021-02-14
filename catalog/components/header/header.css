@@ -1,0 +1,23 @@
+#header {
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--small-interval);
+  background-color: var(--middle-color);
+}
+
+.header__counter {
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+}
+.header__counter::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-image: url(../../img/bonfire_PNG30.png);
+  background-size: cover;
+  position: absolute;
+  right: 12px;
+  bottom: 0px;
+}

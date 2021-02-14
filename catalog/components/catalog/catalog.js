@@ -14,6 +14,7 @@ class Products {
     element.classList.remove(this.classActive);
     element.innerHTML = this.lableAdd;
   }
+  header.render(localStorageUtil.getLocalStorage().length);
   }
 
   render(){
@@ -43,6 +44,7 @@ class Products {
       catalogItems += catalogItem;
     }
     ) 
+
    const catalogList= `<ul class = products-catalog> ${catalogItems}</ul>`
     Catalog.innerHTML = catalogList
   }
